@@ -1,0 +1,157 @@
+/*Colors and fonts*/
+body,h1,h2{
+	}
+
+
+body{
+	color: #805B53;
+	font-family: verdana;
+	font-size:15px;
+	letter-spacing: normal;
+	line-height:20px;
+	text-decoration:none;
+}
+
+
+h1{
+	color: #000000;
+	font-family: courier;
+	font-size: 30px;
+	font-weight: bolder;
+	letter-spacing: 2px;
+	line-height:20px;
+	margin-bottom: 10px;
+		 }
+
+
+h2{
+	color: #000000 ;
+	font-family: arial;
+	font-size:20 ;
+	font-weight: bold;
+	letter-spacing:;
+	line-height:1;
+	text-decoration: !important;
+	text-justify:center;
+}
+
+a{
+	text-decoration: none;
+	color: #000000;
+	font-weight: bolder;
+	margin-bottom: 100px;
+
+}
+
+a:hover{
+	color:#805B53;
+}
+
+div{
+	width: 500px;
+	background:#805B53;
+	border: 4px solid black;
+	align-content: center;
+	align-items: center;
+}
+
+/* Custom design with class */
+
+.container {
+	width: fit-content;
+	margin: 40px auto;
+	border-radius: 15px;
+
+
+}
+
+@media (max-width:760px) {
+	.container{
+		width:600;
+
+	}
+}
+
+@media (max-width:500px){
+	.container{
+		width:400px;
+	}
+}
+.card-white {
+	background-color: lightgrey;
+	padding: 10px auto;
+	border-radius:  5px;
+	margin:10px 10px;
+	text-align: center;
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.9);
+	}
+
+
+.img-circle {
+	border-radius: 50%;
+}
+.btn-black {
+	background-color:#000000 ;
+	color:whitesmoke ;
+	padding: 15px 20px;
+	border-radius: 5px;
+	margin-bottom:auto ;
+	
+}
+
+.btn-black:hover {
+	background-color: #805B53;
+	color:whitesmoke;
+}
+
+.list-inline{
+	list-style:none;
+	padding-left: 0px;
+
+}
+
+.list-inline li{
+	display: inline;
+	padding:10px;
+}
+
+.list-inline i {
+font-size: 40px;
+
+}
+
+#Introduction p{
+	margin-bottom: 50px;
+}
+
+
+
+
+.sidebar {
+  width: 150px;
+  position: fixed;
+  
+  top: 20px;
+  left: 15px;
+  bottom:0px;
+  background: lightgrey;
+  overflow-x: hidden;
+  padding: 3px 0;
+  width: 30%;
+
+}
+
+
+.sidebar a {
+  padding: 1px 1px 1px 1px;
+  text-decoration: none;
+  font-size: 15px;
+  display: !important;
+  line-height: 20px;
+ 
+}
+
+.sidebar a:hover {
+  color: #805B53;
+}
+
